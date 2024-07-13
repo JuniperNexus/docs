@@ -1,0 +1,39 @@
+---
+title: "Configuring Juniper Nexus Discord Bot - Customize Your Experience"
+description: "Learn how to configure Juniper Nexus Discord Bot to suit your guild's needs. Explore environment variables, advanced customization options, and more in our detailed guide."
+---
+
+Juniper Nexus Bot offers various configuration options to tailor its behavior and features to suit your Discord guild's needs. This guide covers essential configuration steps and customization options.
+
+## Bot Configuration
+
+Juniper Nexus Bot utilizes environment variables for configuration. Here are the key variables you can set in a `.env` file:
+
+- **TOKEN**: Your Discord bot token obtained from the [Discord Developer Portal](https://discord.com/developers/applications).
+- **CLIENT_ID**: Your Discord bot client ID obtained from the [Discord Developer Portal](https://discord.com/developers/applications).
+- **GUILD_ID**: The ID of your Discord guild.
+- **OWNER_ID**: The ID of the owner of the bot.
+- **JPN_ROLE_ID**: The ID of the role that represents the Juniper Nexus members.
+- **INTERESTED_ROLE_ID**: The ID of the role that represents the interested members.
+- **DATABASE_URL**: The URL of postgres database.
+
+Example `.env` file:
+```bash
+TOKEN=your-bot-token-here
+CLIENT_ID=your-bot-client-id-here
+GUILD_ID=your-guild-id-here
+OWNER_ID=your-owner-id-here
+JPN_ROLE_ID=your-role-id-here
+INTERESTED_ROLE_ID=your-role-id-here
+DATABASE_URL=your-database-url-here
+```
+
+## Advanced Configuration
+
+For advanced customization, consider editing command files (`commands` directory) to add new commands or modify existing ones. Consult the [Command List](../commands) for available commands and their usage.
+
+## Next Steps
+
+After configuring Juniper Nexus Bot, test its functionality within your Discord guild. Adjust configurations as needed based on user feedback and operational requirements.
+
+If you need further assistance with configuration or encounter issues, refer to the [Support](../support) section for troubleshooting tips and community support.

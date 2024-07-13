@@ -1,0 +1,45 @@
+The `balance` command allows users to check their balance and view transaction history within your Discord server using Juniper Nexus Bot.
+
+## Command Usage
+
+To check your balance and view transactions, use the following command format:
+
+```
+/balance [user]
+```
+
+- `[user]` (optional): Mention or specify the user to check the balance for. If not provided, it defaults to the user who issued the command.
+
+## Permissions
+
+- **Required Permissions**: None (available to all users).
+
+## Command Behavior
+
+- Upon executing the command, the bot responds with a loading message while fetching the balance and transaction history.
+- If transactions are found for the user, the bot displays an embedded message showing the user's current balance and a list of recent transactions.
+- Pagination buttons (`previous` and `next`) allow users to navigate through multiple pages of transactions if needed.
+- The command supports fetching and displaying up to 10 transactions per page.
+
+## Example
+
+To check your own balance and transactions:
+
+```
+/balance
+```
+
+To check another user's balance and transactions (if permitted):
+
+```
+/balance @username
+```
+
+## Notes
+
+- This command is useful for managing virtual currency systems or tracking user activity within your Discord community.
+- If no transactions are found for the user, the bot informs that no transactions were found.
+
+---
+
+Use the `balance` command to stay informed about your financial activity within the Discord server managed by Juniper Nexus Bot.

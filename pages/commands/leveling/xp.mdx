@@ -1,0 +1,50 @@
+---
+title: XP
+---
+
+The `xp` command allows users to view their XP and level within your Discord guild using Juniper Nexus Bot.
+
+## Command Usage
+
+To view your XP and level, use the following command:
+
+```
+/xp [user]
+```
+
+- `[user]` (optional): Mention or specify the user to check the XP for. If not provided, it defaults to the user who issued the command.
+
+## Permissions
+
+- **Required Permissions**: None (available to all users within the guild).
+
+## Command Behavior
+
+- Upon executing the command, the bot responds with a loading message while fetching the user's XP and level.
+- If the guild context is not available (e.g., if the command is executed outside a guild), the bot notifies that the command can only be used within guilds.
+- The bot retrieves the user's XP and level information from the database.
+- If the user is not found in the database, the bot notifies that the user was not found.
+- The bot displays the user's username, level, XP, and time spent (converted to a readable format).
+
+## Example
+
+To view your own XP and level in the guild:
+
+```
+/xp
+```
+
+To view another user's XP and level (if permitted):
+
+```
+/xp @username
+```
+
+## Notes
+
+- This command helps users track their XP progress and current level within the Discord guild.
+- Users can see their level, XP earned, and time spent participating in activities within the guild.
+
+---
+
+Use the `xp` command to monitor your XP progress and level within your Discord community managed by Juniper Nexus Bot.
