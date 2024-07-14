@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 const config: DocsThemeConfig = {
     useNextSeoProps() {
         return {
-            titleTemplate: '%s – Juniper Nexus Discord Bot Documentation',
+            titleTemplate: '%s | Juniper Nexus Discord Bot Documentation',
         };
     },
     head: () => {
@@ -13,7 +13,9 @@ const config: DocsThemeConfig = {
         const { frontMatter } = useConfig();
 
         const baseUrl =
-            process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://junipernexus.github.io/docs';
+            process.env.NODE_ENV === 'development'
+                ? 'http://localhost:3000/docs'
+                : 'https://junipernexus.github.io/docs';
         const url = `${baseUrl}${defaultLocale === locale ? asPath : `/${locale}${asPath}`}`;
 
         return (
