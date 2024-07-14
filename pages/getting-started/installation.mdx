@@ -1,6 +1,6 @@
 ---
-title: "Installing Juniper Nexus Discord Bot - Step-by-Step Guide"
-description: "Learn how to install and configure the Juniper Nexus Discord Bot in your guild. Follow our detailed instructions to get started quickly and easily."
+title: 'Installing Juniper Nexus Discord Bot - Step-by-Step Guide'
+description: 'Learn how to install and configure the Juniper Nexus Discord Bot in your guild. Follow our detailed instructions to get started quickly and easily.'
 ---
 
 To start using Juniper Nexus Bot in your Discord guild, follow these simple steps:
@@ -9,47 +9,59 @@ To start using Juniper Nexus Bot in your Discord guild, follow these simple step
 
 Before installing Juniper Nexus Bot, ensure you have:
 
-- **Discord Bot Token**: Obtain a Discord bot token from the [Discord Developer Portal](https://discord.com/developers/applications).
-- **Node.js**: Ensure Node.js is installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
+-   **Discord Bot Token**: Obtain a Discord bot token from the [Discord Developer Portal](https://discord.com/developers/applications).
+-   **Node.js**: Ensure Node.js is installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
 
 ## Steps
 
 1. **Create a Discord Bot Application**:
-   - Navigate to the [Discord Developer Portal](https://discord.com/developers/applications) and create a new application.
-   - Go to the "Bot" section under your application settings and click "Add Bot".
-   - Copy the bot token provided.
+
+    - Navigate to the [Discord Developer Portal](https://discord.com/developers/applications) and create a new application.
+    - Go to the "Bot" section under your application settings and click "Add Bot".
+    - Copy the bot token provided.
 
 2. **Clone Juniper Nexus Bot Repository**:
-   - Clone the Juniper Nexus Bot repository from GitHub:
-     ```bash
-      git clone https://github.com/JuniperNexus/discord-bot.git
-      cd discord-bot
-     ```
+
+    - Clone the Juniper Nexus Bot repository from GitHub:
+
+        ```sh copy filename="Terminal"
+        git clone https://github.com/JuniperNexus/discord-bot.git
+        cd discord-bot
+        ```
 
 3. **Configure Bot Token**:
-   - Create a .env file in the root directory of the project or copy the example .env.example and add your Discord bot token and other necessary configurations:
-     ```bash
-     cp .env.example .env
-     ```
-   - Edit the .env file with your bot token and other configurations.
+
+    - Create a .env file in the root directory of the project or copy the example .env.example and add your Discord bot token and other necessary configurations:
+
+        ```sh copy filename="Terminal"
+        cp .env.example .env
+        ```
+
+    - Edit the .env file with your bot token and other configurations.
 
 4. **Install Dependencies**:
-   - Install required dependencies using npm:
-     ```bash
-     npm install
-     ```
+
+    - Install required dependencies using npm:
+
+        ```sh copy filename="Terminal"
+        npm install
+        ```
 
 5. **Build the Bot**:
-   - Build the bot using npm:
-     ```bash
-     npm run build
-     ```
+
+    - Build the bot using npm:
+
+        ```sh copy filename="Terminal"
+        npm run build
+        ```
 
 6. **Start the Bot**:
-   - Run the bot with npm:
-     ```bash
-     npm start
-     ```
+
+    - Run the bot with npm:
+
+        ```sh copy filename="Terminal"
+        npm start
+        ```
 
 ## Next Steps
 

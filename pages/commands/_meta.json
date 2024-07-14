@@ -1,10 +1,10 @@
 {
-  "admin": "Admin",
-  "currency": "Currency",
-  "fun": "Fun",
-  "general": "General",
-  "leveling": "Leveling",
-  "miscellaneous": "Miscellaneous",
-  "moderation": "Moderation",
-  "utility": "Utility"
+    "admin": "Admin",
+    "currency": "Currency",
+    "fun": "Fun",
+    "general": "General",
+    "leveling": "Leveling",
+    "miscellaneous": "Miscellaneous",
+    "moderation": "Moderation",
+    "utility": "Utility"
 }

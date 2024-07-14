@@ -8,21 +8,21 @@ To check the weather for a location, use the following command format:
 /weather <location>
 ```
 
-- `<location>` (required): The location for which you want to fetch weather information.
+-   `<location>` (required): The location for which you want to fetch weather information.
 
 ## Permissions
 
-- **Required Permissions**: None (available to all users).
+-   **Required Permissions**: None (available to all users).
 
 ## Command Behavior
 
-- Upon executing the command, the bot responds with a loading message while fetching the weather information.
-- The bot fetches the current weather data and forecast using an external API (`https://api.popcat.xyz/weather` in this case).
-- If the location is valid and weather data is retrieved successfully, the bot displays an embedded message with:
-  - Current weather details including temperature, sky conditions, feels-like temperature, humidity, and wind information.
-  - A link to Google Maps pinpointing the specified location.
-  - A forecast for the upcoming days including low and high temperatures and sky conditions.
-- If there's an error fetching weather data or the location is not found, the bot informs that it failed to fetch weather information.
+-   Upon executing the command, the bot responds with a loading message while fetching the weather information.
+-   The bot fetches the current weather data and forecast using an external API (`https://api.popcat.xyz/weather` in this case).
+-   If the location is valid and weather data is retrieved successfully, the bot displays an embedded message with:
+    -   Current weather details including temperature, sky conditions, feels-like temperature, humidity, and wind information.
+    -   A link to Google Maps pinpointing the specified location.
+    -   A forecast for the upcoming days including low and high temperatures and sky conditions.
+-   If there's an error fetching weather data or the location is not found, the bot informs that it failed to fetch weather information.
 
 ## Example
 
@@ -34,8 +34,8 @@ To check the weather for New York City:
 
 ## Notes
 
-- This command provides real-time weather updates and forecasts, enhancing user engagement within your Discord community.
-- Ensure the specified location name is accurate to fetch the correct weather data.
+-   This command provides real-time weather updates and forecasts, enhancing user engagement within your Discord community.
+-   Ensure the specified location name is accurate to fetch the correct weather data.
 
 ---
 

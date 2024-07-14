@@ -4,13 +4,13 @@ Welcome to the Juniper Nexus Discord Bot documentation repository! This document
 
 ## Table of Contents
 
-- [Juniper Nexus Discord Bot Documentation](#juniper-nexus-discord-bot-documentation)
-  - [Table of Contents](#table-of-contents)
-  - [About Juniper Nexus Bot](#about-juniper-nexus-bot)
-  - [Getting Started](#getting-started)
-  - [Contributing](#contributing)
-  - [Support](#support)
-  - [License](#license)
+-   [Juniper Nexus Discord Bot Documentation](#juniper-nexus-discord-bot-documentation)
+    -   [Table of Contents](#table-of-contents)
+    -   [About Juniper Nexus Bot](#about-juniper-nexus-bot)
+    -   [Getting Started](#getting-started)
+    -   [Contributing](#contributing)
+    -   [Support](#support)
+    -   [License](#license)
 
 ## About Juniper Nexus Bot
 
@@ -38,10 +38,10 @@ We welcome contributions from the community! If you'd like to contribute to the 
 
 If you need help with Juniper Nexus Bot, you can find support through the following channels:
 
-- **Documentation**: Refer to the [Juniper Nexus Bot Documentation](/pages/index.mdx) for detailed guides and information.
-- **Community Support**: Join our Discord server [here](https://discord.gg/juniper-nexus) to chat with other users and get help from the community.
-- **Bug Reports and Feature Requests**: Create an issue on our [GitHub repository](https://github.com/JuniperNexus/docs/issues) to report bugs or request new features.
-- **Contact Us**: For direct assistance, email us at support@junipernexusbot.com.
+-   **Documentation**: Refer to the [Juniper Nexus Bot Documentation](/pages/index.mdx) for detailed guides and information.
+-   **Community Support**: Join our Discord server [here](https://discord.gg/juniper-nexus) to chat with other users and get help from the community.
+-   **Bug Reports and Feature Requests**: Create an issue on our [GitHub repository](https://github.com/JuniperNexus/docs/issues) to report bugs or request new features.
+-   **Contact Us**: For direct assistance, email us at support@junipernexusbot.com.
 
 ## License
 

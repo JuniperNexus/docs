@@ -8,20 +8,20 @@ To remove coins from a user with a reason, use the following command format:
 /remove <user> <amount> <reason>
 ```
 
-- `<user>` (required): Mention or specify the user from whom coins will be removed.
-- `<amount>` (required): The amount of coins to deduct from the user.
-- `<reason>` (required): The reason for deducting coins from the user.
+-   `<user>` (required): Mention or specify the user from whom coins will be removed.
+-   `<amount>` (required): The amount of coins to deduct from the user.
+-   `<reason>` (required): The reason for deducting coins from the user.
 
 ## Permissions
 
-- **Required Permissions**: Administrator (default member permission).
+-   **Required Permissions**: Administrator (default member permission).
 
 ## Command Behavior
 
-- Upon executing the command, the bot responds with a loading message while processing the coin deduction.
-- The command checks if the specified user exists in the database. If not found, it informs the user with an error message.
-- It deducts the specified amount of coins from the user's balance in the database, recording the deduction reason and the operator (administrator) who performed the action.
-- Upon successful deduction, the bot confirms with a success message indicating the amount of coins removed from the user.
+-   Upon executing the command, the bot responds with a loading message while processing the coin deduction.
+-   The command checks if the specified user exists in the database. If not found, it informs the user with an error message.
+-   It deducts the specified amount of coins from the user's balance in the database, recording the deduction reason and the operator (administrator) who performed the action.
+-   Upon successful deduction, the bot confirms with a success message indicating the amount of coins removed from the user.
 
 ## Example
 
@@ -33,8 +33,8 @@ To deduct 50 coins from user @example for the reason "Penalty for rule violation
 
 ## Notes
 
-- This command is useful for administering penalties or managing virtual currency balances within your Discord server.
-- Ensure you have the necessary permissions (`Administrator`) to use this command effectively.
+-   This command is useful for administering penalties or managing virtual currency balances within your Discord server.
+-   Ensure you have the necessary permissions (`Administrator`) to use this command effectively.
 
 ---
 
