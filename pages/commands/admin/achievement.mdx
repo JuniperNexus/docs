@@ -1,0 +1,71 @@
+The `achievement` command allows administrators to manage user achievements within your Discord server using Juniper Nexus Bot. This includes inserting new achievements and updating existing ones.
+
+## Command Usage
+
+### Insert Achievement
+
+To insert a new achievement for a user, use the following command format:
+
+```
+/achievement insert <name> <title> <description> <image>
+```
+
+-   `<name>` (required): The name of the user.
+-   `<title>` (required): The title of the achievement.
+-   `<description>` (required): The description of the achievement.
+-   `<image>` (required): The in-game profile image of the user.
+
+### Update Achievement
+
+To update an existing achievement, use the following command format:
+
+```
+/achievement update <id> [name] [title] [description] [image]
+```
+
+-   `<id>` (required): The ID of the achievement.
+-   `[name]` (optional): The new name of the user.
+-   `[title]` (optional): The new title of the achievement.
+-   `[description]` (optional): The new description of the achievement.
+-   `[image]` (optional): The new in-game profile image of the user.
+
+## Permissions
+
+-   **Required Permissions**: Administrator (default member permission).
+
+## Command Behavior
+
+-   **Insert Subcommand**:
+
+    -   The bot responds with a loading message while processing the insertion.
+    -   It inserts a new achievement into the database with the provided details.
+    -   Upon successful insertion, the bot confirms with an embedded message displaying the achievement details and the user's image.
+
+-   **Update Subcommand**:
+    -   The bot responds with a loading message while processing the update.
+    -   It checks if the specified achievement ID exists in the database.
+    -   If the achievement exists, it updates the specified fields (name, title, description, image).
+    -   Upon successful update, the bot confirms with an embedded message indicating the successful update.
+
+## Example
+
+To insert a new achievement:
+
+```
+/achievement insert "JohnDoe" "Top Scorer" "Scored the highest points in the game." "http://example.com/image.png"
+```
+
+To update an existing achievement:
+
+```
+/achievement update "12345" title="Champion" description="Won the championship." image="http://example.com/newimage.png"
+```
+
+## Notes
+
+-   This command is intended for managing user achievements, ensuring recognition and tracking within your Discord server.
+-   Ensure you have the necessary permissions (`Administrator`) to use this command effectively.
+
+---
+
+Use the `achievement` command to manage and update user achievements, fostering a sense of accomplishment and recognition within your Discord server managed by Juniper Nexus Bot.

@@ -1,0 +1,41 @@
+The `decrease` command allows administrators to reduce the number of coins a user has, with a specified reason, within your Discord server using Juniper Nexus Bot.
+
+## Command Usage
+
+To decrease a user's coins with a reason, use the following command format:
+
+```
+/decrease <user> <amount> <reason>
+```
+
+-   `<user>` (required): Mention or specify the user whose coins will be decreased.
+-   `<amount>` (required): The amount of coins to deduct from the user.
+-   `<reason>` (required): The reason for decreasing the user's coins.
+
+## Permissions
+
+-   **Required Permissions**: Administrator (default member permission).
+
+## Command Behavior
+
+-   Upon executing the command, the bot responds with a loading message while processing the coin deduction.
+-   The command checks if the specified user exists in the database. If not found, it informs the user with an error message.
+-   It deducts the specified amount of coins from the user's balance in the database, recording the deduction reason and the operator (administrator) who performed the action.
+-   Upon successful deduction, the bot confirms with a success message indicating the amount of coins removed from the user and the reason for the deduction.
+
+## Example
+
+To decrease 50 coins from user @example for the reason "Penalty for breaking rules":
+
+```
+/decrease @example 50 Penalty for breaking rules
+```
+
+## Notes
+
+-   This command is useful for administering penalties or managing virtual currency balances within your Discord server.
+-   Ensure you have the necessary permissions (`Administrator`) to use this command effectively.
+
+---
+
+Use the `decrease` command to deduct coins from users with specified reasons, ensuring fair management and administration within your Discord server managed by Juniper Nexus Bot.
